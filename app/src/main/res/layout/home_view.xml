@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--dibutuhkan untuk membuat binding class-->
+    <data>
+        <variable
+            name="homeViewModel"
+            type="com.example.yoshua145150201111044.databinding.viewmodel.HomeViewModel" />
+    </data>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+
+            android:textColor="#666666"
+            android:text='Selamat datang, silahkan tekan tombol untuk mulai'/>
+
+        <Button
+
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mulai"
+            android:background="?attr/colorPrimary"
+            android:onClick="@{homeViewModel::onClickButton}"/>
+        <!--meskipun ada garis merah tetap bisa, ignore saja-->
+
+    </LinearLayout>
+
+</layout>

@@ -1,0 +1,53 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item android:title="maptype"
+        android:icon="@drawable/map"
+        android:orderInCategory="90" app:showAsAction="ifRoom">
+
+    <menu tools:context=".MainActivity">
+
+        <group android:checkableBehavior="single" android:icon="@drawable/map"
+            app:showAsAction="ifRoom">
+            <item android:id="@+id/map_normal" android:title="Normal"
+                android:orderInCategory="90" app:showAsAction="never" />
+
+            <item android:id="@+id/map_silver" android:title="Silver"
+                android:orderInCategory="90" app:showAsAction="never" />
+
+            <item android:id="@+id/map_retro" android:title="Retro"
+                android:orderInCategory="90" app:showAsAction="never" />
+
+            <item android:id="@+id/map_dark" android:title="Dark"
+                android:orderInCategory="90" app:showAsAction="never" />
+
+            <item android:id="@+id/map_night" android:title="Night"
+                android:orderInCategory="90" app:showAsAction="never" />
+
+            <item android:id="@+id/map_aubergine" android:title="Aubergine"
+                android:orderInCategory="90" app:showAsAction="never" />
+
+            <item android:id="@+id/map_pastel" android:title="Pastel"
+                android:orderInCategory="90" app:showAsAction="never" />
+        </group>
+
+    </menu>
+
+
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/normal" android:title="Normal"
+            android:orderInCategory="100" app:showAsAction="never" />
+        <item android:id="@+id/satelite" android:title="Satelite"
+            android:orderInCategory="100" app:showAsAction="never" />
+
+        <item android:id="@+id/terrain" android:title="Terrain"
+            android:orderInCategory="100" app:showAsAction="never" />
+
+        <item android:id="@+id/hybrid" android:title="Hybrid"
+            android:orderInCategory="100" app:showAsAction="never" />
+    </group>
+
+</menu>

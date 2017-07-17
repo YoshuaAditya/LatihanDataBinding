@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Latihan App</string>
+    <!-- Menu strings -->
+    <string name="add_image_from_storage">Add Image From Storage</string>
+    <string name="add_image_from_camera">Add Image From Camera</string>
+
+    <string name="CardView">Card View</string>
+    <string name="SwipeView">Swipe View</string>
+
+    <string name="vibrant">Vibrant</string>
+    <string name="vibrant_dark">Vibrant Dark</string>
+    <string name="vibrant_light">Vibrant Light</string>
+    <string name="muted">Muted</string>
+    <string name="muted_dark">Muted Dark</string>
+    <string name="muted_light">Muted Light</string>
+    <string name="dominant">Dominant</string>
+
+    <string name="title_text">Title Text</string>
+    <string name="body_text">The title and body text colors on this page are extracted from the background color using the Palette.Swatch class. For example, after getting a Palette instance from Palette.generate() or Palette.generateAsync(), you can call a method like palette.getVibrantSwatch() to get a Palette.Swatch instance. Then, you can call methods paletteSwatch.getTitleTextColor() and paletteSwatch.getBodyTextColor() to get colors such as the ones displayed here.</string>
+    <string name="drawer_item_settings">Setting</string>
+    <string name="drawer_item_home">Home</string>
+    <string name="drawer_item_map">Map</string>
+    <string name="drawer_item_gallery">Gallery</string>
+    <string name="link_file_json">https://gist.githubusercontent.com/yoesuv/252f56310942bd8d3657/raw/00e5a860fe9284c7cfda0dcfeb4819c9f3570b90/</string>
+    <string name="drawer_item_wisata">Wisata</string>
+    <string name="loading_error">Could not load image. Check your internet connection</string>
+    <string name="drawer_item_about">About</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="semua">Semua</string>
+    <string name="malang">Malang</string>
+    <string name="batu">Batu</string>
+    <string name="kabupaten">Kabupaten</string>
+    <string name="link_file_json_malang">https://gist.githubusercontent.com/yoesuv/364274aa0484dbc5ac4d/raw/4e599c24941e208caf50f8cc9f20725d57dac325/</string>
+    <string name="link_file_json_batu">https://gist.githubusercontent.com/yoesuv/9dc2940b133a7cf1886f/raw/7b93a77354aeae755f51160fc1bd036033425549/</string>
+    <string name="link_file_json_kabupaten">https://gist.githubusercontent.com/yoesuv/8d126d4fe37e21cf4c43/raw/447b616ece4c0d4514de8cbd47306a1c0379b3c0/</string>
+
+    <string name="link_file_marker">https://gist.githubusercontent.com/yoesuv/e97a8b79328df283a60f/raw/2b9faa4f46fd6debc12f03ac5f56effb4d22fd90/</string>
+
+</resources>
