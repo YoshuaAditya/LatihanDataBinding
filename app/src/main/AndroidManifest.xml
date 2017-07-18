@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.yoshua145150201111044.databinding">
+    package="com.example.yos.databinding">
 
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
@@ -13,7 +13,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/CustomTheme">
-        <activity android:name=".view.FragmentContainer"
+        <activity android:name="com.example.yos.databinding.view.FragmentContainer"
             android:screenOrientation="portrait"
             android:excludeFromRecents="true">
             <intent-filter>
@@ -22,8 +22,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".view.InfoWisataActivity" android:screenOrientation="portrait"></activity>
-        <activity android:name=".view.InfoGalleryActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.example.yos.databinding.view.InfoWisataActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.example.yos.databinding.view.InfoGalleryActivity" android:screenOrientation="portrait"></activity>
 
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.

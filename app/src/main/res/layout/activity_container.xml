@@ -5,7 +5,7 @@
     <data>
         <variable
             name="FragmentContainerViewModel"
-            type="com.example.yoshua145150201111044.databinding.viewmodel.FragmentContainerViewModel" />
+            type="com.example.yos.databinding.viewmodel.FragmentContainerViewModel" />
     </data>
     <!--drawerLayout untuk memberi navigation drawer, FrameLayout untuk tampilan utama,-->
     <!--fitsSystemWindows digunakan untuk tidak overlap dengan status bar,-->

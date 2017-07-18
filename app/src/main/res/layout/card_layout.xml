@@ -4,7 +4,7 @@
     <data>
         <variable
             name="cardLayoutVM"
-            type="com.example.yoshua145150201111044.databinding.viewmodel.CardLayoutViewModel" />
+            type="com.example.yos.databinding.viewmodel.CardLayoutViewModel" />
     </data>
 
     <android.support.v7.widget.CardView

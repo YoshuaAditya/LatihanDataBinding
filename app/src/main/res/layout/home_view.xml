@@ -5,7 +5,7 @@
     <data>
         <variable
             name="homeViewModel"
-            type="com.example.yoshua145150201111044.databinding.viewmodel.HomeViewModel" />
+            type="com.example.yos.databinding.viewmodel.HomeViewModel" />
     </data>
     <LinearLayout
         android:layout_width="match_parent"

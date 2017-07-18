@@ -5,7 +5,7 @@
     <data>
         <variable
             name="pesertaViewModel"
-            type="com.example.yoshua145150201111044.databinding.viewmodel.CardPesertaViewModel" />
+            type="com.example.yos.databinding.viewmodel.CardPesertaViewModel" />
     </data>
 
     <GridView

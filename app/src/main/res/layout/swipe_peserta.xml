@@ -4,7 +4,7 @@
     <data>
         <variable
             name="SwipeViewModel"
-            type="com.example.yoshua145150201111044.databinding.viewmodel.SwipePesertaViewModel" />
+            type="com.example.yos.databinding.viewmodel.SwipePesertaViewModel" />
     </data>
     <android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
         android:orientation="vertical" android:layout_width="match_parent"

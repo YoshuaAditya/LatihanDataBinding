@@ -7,8 +7,7 @@
     https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=4E:F9:22:86:B2:85:66:C4:7E:FD:3C:03:E2:73:33:51:EF:C6:5F:29%3Bcom.example.yoshua145150201111044.databinding.view
 
     You can also add your credentials to an existing key, using this line:
-    4E:F9:22:86:B2:85:66:C4:7E:FD:3C:03:E2:73:33:51:EF:C6:5F:29;com.example.yoshua145150201111044.databinding.view
-
+    4E:F9:22:86:B2:85:66:C4:7E:FD:3C:03:E2:73:33:51:EF:C6:5F:29;yos
     Alternatively, follow the directions here:
     https://developers.google.com/maps/documentation/android/start#get-key
 

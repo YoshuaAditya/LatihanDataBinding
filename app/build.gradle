@@ -7,7 +7,7 @@ android {
         enabled = true
     }
     defaultConfig {
-        applicationId "com.example.yoshua145150201111044.databinding"
+        applicationId "com.example.yos.databinding"
         minSdkVersion 21
         targetSdkVersion 25
         versionCode 1
